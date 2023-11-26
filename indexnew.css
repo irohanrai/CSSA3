@@ -1,0 +1,157 @@
+body{
+    background-color: grey;
+}
+.heading{
+    background-color: white;
+    border: 8px outset red;
+    border-radius: 30px;
+    text-align: center;
+    height: 150px;
+    width: 450px;
+    box-shadow: 8px 8px purple;
+    text-shadow: 1px 1px black;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.container{
+    border: 5px solid green;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.box1 div {
+    border: 8px outset red;
+    color: rgb(46, 2, 46);
+    border-radius: 30px;
+    box-shadow: 8px 8px purple;
+    height: 210px;
+    width: 260px;
+}
+.address{
+    background-color: white;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(46, 2, 46);
+    text-shadow: 1.1px 1.1px rgb(207, 58, 214);
+}
+.img{
+    background-color: white;
+    padding: 15px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.info{
+    background-color: white;
+    border: 8px outset red;
+    border-radius: 30px;
+    box-shadow: 8px 8px purple;
+    color: rgb(46, 2, 46);
+    text-shadow: 1.1px 1.1px rgb(207, 58, 214);
+    height:210px;
+    width:260px;
+    padding-bottom: 30px;
+}
+.rating{
+    background-color: white;
+    border: 8px outset red;
+    border-radius: 30px;
+    box-shadow: 8px 8px purple;
+    text-shadow: 1.1px 1.1px rgb(207, 58, 214);
+    height:210px;
+    width:260px;
+    margin-right: 25px;
+    font-size: large;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.submitb{
+    border-radius: 8px;
+    background-color: red;
+}
+.menu{
+    background-color: rgb(28, 120, 28);
+    border: 8px solid rgb(172, 13, 172);
+    height: 700px;
+    width: 750px;
+    margin: auto;
+    margin-top: 25px;
+}
+.menuheading{
+    text-align: center;
+    font-size: xx-large;
+}
+.title{
+    font-size: xx-large;
+}
+.fruits{
+    height: 275px;
+    width: 370px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f0c542;
+    font-style: italic;
+    font-weight: 550;
+    line-height: 35px;
+}
+.vegetable{
+    height: 275px;
+    width: 375px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f0c542;
+    font-style: italic;
+    font-weight: 550;
+    line-height: 35px; 
+}
+.items{
+    height: 310px;
+    width: 750px;
+    background-color: #f0c542;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 550;
+    line-height: 35px;
+}
+.offer{
+    height: 80px;
+    width: 550px;
+    border: 8px solid red;
+    border-radius: 30px;
+    background-color: greenyellow;
+    text-align: center;
+    position: sticky;
+    margin: auto;
+    bottom: 10px;
+    box-shadow: purple 5px 5px;
+    color: darkred;
+}
+.offer1{
+    background-color: greenyellow;
+    display: inline-block;
+    font-size: x-large;
+
+}
+.offer2{
+    background-color: greenyellow;
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 5px;
+    float: right;
+}
